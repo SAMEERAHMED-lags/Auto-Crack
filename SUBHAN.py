@@ -75,7 +75,7 @@ def main():
 	print("\033[92;1m  [1] START CRACK")
 	print("\033[93;1m  [2] DUMP/EXTRACT USER-IDZ")
 	print("\033[94;1m  [3] HOW TO GET ACCESS TOKEN")
-	print("\033[96;1m  [4] CONTACT ME ON WHATSAPP")
+	print("\033[96;1m  [4] CONTACT ME ON Facebook")
 	print("\033[92;1m  [5] UPDATE TOOL")
 	print("\033[91;1m  [0] EXIT")
 	print("")
@@ -94,7 +94,7 @@ def log_sel():
 		subprocess.check_output(["am", "start", "https://www.facebook.com/112406476962548/posts/348595290010331/?app=fbl"])
 		main()
 	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
-		os.system('xdg-open https://wa.me/+923189339494')
+		os.system('xdg-open https://www.facebook.com/Subhankhan4.94')
 		main()
 	elif sel =="5" or sel =="05":
 		import os
